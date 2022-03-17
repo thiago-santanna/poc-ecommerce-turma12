@@ -10,7 +10,6 @@ public class HelloController {
 	
 	@GetMapping
 	public String sayHello() {
-		System.out.println("teste");
 		return "Hello! Você está consumindo a API.";
 	}
 }
